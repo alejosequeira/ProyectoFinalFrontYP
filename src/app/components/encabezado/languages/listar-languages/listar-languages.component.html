@@ -1,0 +1,34 @@
+<div class="languages">
+  
+  <h2>LANGUAGES<button (click)="registrarLanguages()" class="btn-add">
+    <i class="material-icons">library_add</i> Add Languages
+  </button></h2>
+  
+  
+
+  <table class="languages-table">
+    <tbody>
+      <tr *ngFor="let skilla of lang">
+        <td>
+          <h4>{{skilla.titulo}}</h4>
+          
+          <div>
+            <button (click)="eliminarLanguages(skilla.id)" class="btn">
+              <i class="fa fa-trash"></i> 
+            </button>
+
+            <button (click)="actualizarLanguages(skilla.id)" class="bt">
+              <i class="fa fa-edit"></i>
+            </button>
+          </div>
+          
+          <div class="progress-bar">
+            <div class="progress" [style.width.%]="skilla.porcentaje">
+              
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,54 @@
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  
+  
+  <ul class="navbar-nav">
+
+
+  
+    <div class="correte5">
+      <div class="w3-animate-left">
+        <div class="w3-container ">
+          <a routerLink="/portofolio-dos" 
+          routerLinkActive="active" class="nav-link" ><i class="fa fa-home" style="font-size:200%;"></i></a></div></div></div>
+  </ul></nav>
+<h1 class="text-center">INICIAR SESION</h1>
+
+<form [formGroup]="form" class="m-5" (ngSubmit)="onEnviar($event)">
+    <div class="mb-3">
+      <label for="exampleInputMailUser1" class="form-label">MailUser address</label>
+      <input type="mailUser" formControlName='mailUser'
+      [ngClass]="{'is-invalid':MailUser?.errors && MailUser?.touched, 'is-valid': !MailUser?.errors && MailUser?.touched}"
+      class="form-control" 
+      id="exampleInputMailUser1" aria-describedby="mailUserHelp">
+      
+      <div *ngIf="MailUser?.errors && MailUser?.touched">
+        
+        <p *ngIf="MailUser?.hasError('required')" class="text-danger">
+          el mailUser es required.
+        </p>
+        <p *ngIf="MailUser?.hasError('mailUser')" class="text-danger">
+          el formato del mailUser debe ser valido.
+        </p>
+      </div>
+      
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPasswordUser1" class="form-label">PasswordUser</label>
+      <input type="passwordUser" formControlName="passwordUser" 
+      [ngClass]="{'is-invalid': PasswordUser?.errors && PasswordUser?.touched, 'is-valid': !PasswordUser?.errors && PasswordUser?.touched}"
+      class="form-control" 
+      id="exampleInputPasswordUser1">
+
+      <div *ngIf="PasswordUser?.errors && PasswordUser?.touched">
+        <p *ngIf="PasswordUser?.hasError('required')" class="text-danger">
+          la contra es requerida
+        </p>
+        <p *ngIf="PasswordUser?.errors?.['minlenght']" class="text-danger">
+          la contra debe ser de mas de 8
+        </p>
+      </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary">ENVIAR</button>
+  </form>

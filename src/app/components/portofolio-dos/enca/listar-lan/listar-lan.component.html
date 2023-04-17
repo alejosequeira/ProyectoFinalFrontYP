@@ -1,0 +1,28 @@
+<div class="languages">
+  
+  <h2>Languages</h2>
+  
+  
+
+  <table class="languages-table">
+    <tbody>
+      <tr *ngFor="let skilla of lang">
+        <td>
+          <h4>{{skilla.titulo}}</h4>
+          
+          <div>
+            
+
+            
+          </div>
+          
+          <div class="progress-bar">
+            <div class="progress" [style.width.%]="skilla.porcentaje">
+              
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

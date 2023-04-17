@@ -1,0 +1,66 @@
+{
+    "infobasica":{
+        "name":"Alejo Sequeira",
+        "image": "https://i.postimg.cc/C5h0CP5m/Imagen-de-Whats-App-2023-01-26-a-las-11-20-43.jpg",
+        "condition": "Full Stack Programmer",
+        "livenow": "Entre Rios, ARG",
+        "email": "sequeiraar@gmail.com",
+        "telefono": "+549-3454090694"
+    },
+    
+    "skill":[{
+        "js": "JavaScript"
+    },
+    {
+        "js": "CSS"
+    },
+    {
+        "js": "HTML"
+        
+    },
+    {
+        "js": "Angular"
+        
+    }],
+
+    "languages":{
+        "es": "Español",
+        "en": "English",
+        "pr": "Portugués"
+    },
+    "education":[{
+        "school": "YoProgramo.com",
+        "start": "2022-",
+        "finish": "2023",
+        "career": "Full Stack Certificate"
+    },
+    {
+        "school": "Universidad Tecnológica Nacional",
+        "start": "2018-",
+        "finish": "2023",
+        "career": "Information Systems Engineeringaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }],
+    
+    "work":[{
+        "working": "Front End Developer / tesla.com",
+        "start": "Jan 2024 -",
+        "finish": "Current",
+        "description": "Pertenezco a un grupo de trabajo increible, el cliente esta muy contento."
+    },
+    {
+        "working": "Web Developer / secret.com",
+        "start": "Mar 2020 -",
+        "finish": "Mar 2024",
+        "description": "Se realizo la creación y el mantenimiento de una web cuyo nombre el cliente quiere mantenerlo oculto"
+    },
+    {   
+        "working": "Graphic Designer / designpoop.com",
+        "start": "Jun 2019 -",
+        "finish": "Dec 2019",
+        "description": "Participe del proyecto del diseño de la web tan emblematica Desing Poop"
+    }],
+    
+    "aboutMe":{
+        "descripAbout":"A simple guy who was born in a town, loves animals, playing sports and spending time with family."
+    }
+    }

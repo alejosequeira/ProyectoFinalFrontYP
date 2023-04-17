@@ -1,0 +1,28 @@
+<div class="skills">
+  
+  <h2>Skills</h2>
+  
+  
+
+  <table class="skills-table">
+    <tbody>
+      <tr *ngFor="let skill of ski">
+        <td>
+          <h4>{{skill.titulo}}</h4>
+          
+          <div>
+            
+
+            
+          </div>
+          
+          <div class="progress-bar">
+            <div class="progress" [style.width.%]="skill.porcentaje">
+              
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
