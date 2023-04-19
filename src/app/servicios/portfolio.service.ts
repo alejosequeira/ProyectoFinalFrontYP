@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PortfolioService {
-  url:string="https://portfolioback-jrnq.onrender.com/"
+  url:string="https://servidorback.onrender.com/"
   constructor(private http:HttpClient) { }
 
   obtenerDatos():Observable<any>{

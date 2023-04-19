@@ -9,7 +9,7 @@ export class EducationService {
  
 
   //Esta URL obtiene el listado de todos los empleados en el backend
-  private URL = "https://portfolioback-jrnq.onrender.com/api/v2/educationts";
+  private URL = "https://servidorback.onrender.com/api/v2/educationts";
 
   constructor(private httpClient : HttpClient) { }
 

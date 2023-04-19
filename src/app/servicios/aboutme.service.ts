@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class AboutMeService {
 
   //Esta URL obtiene el listado de todos los AboutMes en el backend
-  private URL = "https://portfolioback-jrnq.onrender.com/api/v2/about";
+  private URL = "https://servidorback.onrender.com/api/v2/about";
 
   constructor(private httpClient : HttpClient) { }
 

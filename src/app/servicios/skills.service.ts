@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class SkillsService {
  //Esta URL obtiene el listado de todos los Skillss en el backend
- private URL = "https://portfolioback-jrnq.onrender.com/api/v2/skills";
+ private URL = "https://servidorback.onrender.com/api/v2/skills";
 
  constructor(private httpClient : HttpClient) { }
 
